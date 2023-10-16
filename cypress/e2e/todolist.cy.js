@@ -13,5 +13,4 @@ describe('todo-list', () => {
     cy.get(':nth-child(1) > button').click()
     cy.get('.TodoItem_item__iFWQW').should('have.length', 2);
   });
-
 })
